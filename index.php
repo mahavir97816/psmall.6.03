@@ -155,11 +155,6 @@ background:#C0C0C0;
 
 
 
-<!--
-<video autoplay muted loop id="myVideo">
-  <source src="/img/bg.mp4" type="video/mp4">
-</video> 
--->
 <center>
 <!-- The Modal -->
 <div id="myModal" class="modal">
