@@ -10,21 +10,18 @@ if($dept==0)
 {
 mysqli_query($conn,"UPDATE recharge_dept set status='0' where admin_id = '$admin_id'");
 mysqli_query($conn,"UPDATE recharge_upi set status='0' where admin_id = '$admin_id'");
-session_unset();
 header("location:admin_login.php");
 }
 
 else if($dept==1)
 {
 mysqli_query($conn,"UPDATE promotion_dept set status='0' where admin_id = '$admin_id'");
-session_unset();
 header("location:admin_login.php");
 }
 
 else if($dept==2)
 {
 mysqli_query($conn,"UPDATE withdraw_dept set status='0' where admin_id = '$admin_id'");
-session_unset();
 header("location:admin_login.php");
 }
 
